@@ -1,0 +1,13 @@
+CREATE TABLE FILMS(
+name TEXT NOT NULL,
+director TEXT NOT NULL,
+actor TEXT NOT NULL,
+actress TEXT NOT NULL,
+release_date TEXT NOT NULL);
+
+INSERT INTO films VALUES('Malik','Mahesh Narayanan','Fahad Fazil','Nimisha Sajayan','3-8-2021');
+INSERT INTO films VALUES('Lucifer','Prithviraj Sukumaran','Mohanlal','Manju Warrier','28-3-2019');
+INSERT INTO films VALUES('Neram','Alphonse Puthren','Nivin Pauly','Nazriya Fahad','10-4-2013');
+INSERT INTO films VALUES('Uyare','Manu Shokan','Tovino Thomas','Parvathy','26-4-2019');
+INSERT INTO films VALUES('Chattambinaadu','Shafi','Mammootty','Rai Laxmi',24-12-2009');
+SELECT *FROM films;
